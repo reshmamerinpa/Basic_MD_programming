@@ -1,8 +1,10 @@
-package face;
+package case_study_2_1;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
+import case_study_2_1.Customer;
 
 public class Customer {
 	String name;
@@ -62,4 +64,5 @@ private void register(String name2, String address2, String contactNumber2, Stri
 	
 }
 	
+
 }
