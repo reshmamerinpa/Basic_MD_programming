@@ -9,13 +9,13 @@ public class Marks {
 		int temp;
 		System.out.println("Enter the number of students:");
 		int size=s.nextInt();
-		int[] values=new int[size];
-		System.out.println("Enter the number of students:");
+		int values[]=new int[size];
+		System.out.println("Enter the mark of student:");
 		for(int i=0;i<size;i++) {
 			values[i]=s.nextInt();
 						
 		}
-		System.out.println("Enter the mark of student:");
+		
 		for(int i=0;i<size;i++)
 		{
 			for(int j=i+1;j<size;j++)
